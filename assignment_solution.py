@@ -59,6 +59,7 @@ class Sainath_Assignment:
                         print("invalid date of birth")
                         self.signup()
                 else:
+                    print("Password's doesn't match")
                     self.signup()
             else:
                 print("Password should contain 8 characters,special character and a number")
